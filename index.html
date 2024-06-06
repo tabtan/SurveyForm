@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SURVEY FORM</title>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Survey Form</h1>
+
+      <p>
+        Feel free to answer to questions below based on your own experience and
+        opinion, if you are not convenient in answering a particular question ,
+        please skip it by answering <b>"No"</b>.Every answer would be very
+        appreciated .Thank you for your time .
+      </p>
+
+      <div class="flexContainer">
+        <div class="flexLeft">
+          <div class="flexItem">
+            <label for="Name"><b>Your Name</b></label
+            ><br />
+            <input
+              type="text"
+              id="Name"
+              name="Name"
+              placeholder="Enter your name"
+            />
+          </div>
+
+          <br />
+          <div class="flexItem">
+            <label for="Email"><b>Your Email Address</b></label>
+            <br />
+            <input
+              type="text"
+              id="Email"
+              name="Email"
+              placeholder="user@user.com"
+            />
+          </div>
+          <br />
+          <div class="flexItem">
+            <label for="Number"><b>Your Phone Number</b></label>
+            <br />
+            <input
+              type="text"
+              id="Number"
+              name="Number"
+              placeholder="9999999999"
+            />
+          </div>
+          <br />
+          <div class="flexItem">
+            <label for="Address"><b>Where Do You Live</b></label>
+            <select id="State" name="State ">
+              <option value="" disabled selected>Select</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="Gujrat">Gujrat</option>
+              <option value="MadhyaPradesh">MadhyaPradesh</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="AndhraPradesh">AndhraPradesh</option>
+            </select>
+          </div>
+          <br />
+
+          <fieldset>
+            <legend>Age</legend>
+            <input type="radio" id="15-20" name="Age" value="15-20" />
+            <label for="15-20">15-20</label><br />
+            <input type="radio" id="21-30" name="Age" value="21-30" />
+            <label for="21-30">21-30</label><br />
+            <input type="radio" id="31-40" name="Age" value="31-40" />
+            <label for="31-40">31-40</label><br />
+            <input type="radio" id="41-50" name="Age" value="41-50" />
+            <label for="41-50">41-50</label><br />
+            <input
+              type="radio"
+              id="PreferNotToSay"
+              name="Age"
+              value="PreferNotToSay"
+            />
+            <label for="PreferNotToSay">Prefer not To say</label><br />
+          </fieldset>
+
+          <br />
+
+          <div class="flexItem">
+            <b>
+              How would you rate your proficiency in coding
+              <br />
+              <input
+                type="radio"
+                id="Beginner"
+                name="proficiency"
+                value="Beginner"
+              />
+              <label for="Beginner">Beginner</label>
+              <br />
+              <input
+                type="radio"
+                id="Intermediate"
+                name="proficiency"
+                value="Intermediate"
+              />
+              <label for="Intermediate">Intermediate</label>
+              <br />
+              <input
+                type="radio"
+                id="Expert"
+                name="proficiency"
+                value="Expert"
+              />
+              <label for="Expert">Expert</label>
+            </b>
+          </div>
+          <br />
+        </div>
+
+        <div class="flexRight">
+          <div class="flexItem">
+            <b>
+              Have You Ever Appeared in any coding contest<br />
+
+              <input type="radio" id="Yes" name="choose" value="Yes" />
+              <label for="Yes">Yes</label>
+              <br />
+
+              <input type="radio" id="No" name="choose" value="No" />
+              <label for="No">No</label>
+            </b>
+          </div>
+          <br />
+          <div class="flexItem">
+            <b>
+              <label for="aspiration"
+                >Discuss what drives your passion for coding and outline your
+                aspiration in this field.</label
+              ></b
+            ><br />
+            <textarea
+              id="aspiration"
+              name="aspiration"
+              rows="4"
+              cols="50"
+            ></textarea>
+          </div>
+          <br /><br />
+          <div class="flexItem">
+            <b>
+              <label for="challenges"
+                >What are some of the challenges you face while coding?</label
+              ></b
+            ><br />
+            <textarea
+              id="challenges"
+              name="challenges"
+              rows="4"
+              cols="50"
+            ></textarea>
+          </div>
+          <br /><br />
+          <div class="flexItem">
+            <b>
+              <label for="DataStructures"
+                >Please list the Data Structures you have a strong understanding
+                of
+              </label></b
+            ><br />
+            <textarea
+              id="DataStructures"
+              name="DataStructures"
+              rows="4"
+              cols="50"
+            ></textarea>
+          </div>
+        </div>
+        <br /><br />
+      </div>
+    </div>
+  </body>
+</html>
